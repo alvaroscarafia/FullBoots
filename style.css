@@ -11,7 +11,7 @@ h1{
 
                                                     /*  NAVBAR */
 nav{
-    padding: 15rem;
+    padding:15rem;
     height: 5rem;
     font-weight: bold;
     border-radius: 10%;
@@ -19,6 +19,11 @@ nav{
 
                                                     /* SECCION A */
 h2{
-    padding: 2rem;
+    padding-bottom: 4rem;
     font-size: 3rem;
+    font-family: monospace;
+    text-decoration: underline;
+}
+.seccionA{
+    padding: 4rem;
 }
