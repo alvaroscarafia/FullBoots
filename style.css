@@ -1,0 +1,24 @@
+
+                                                    /* HEADER */
+
+header{
+    padding: 4rem;
+}
+h1{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+                                                    /*  NAVBAR */
+nav{
+    padding: 10rem;
+    height: 5rem;
+    font-weight: bold;
+    
+}
+
+                                                    /* SECCION A */
+h2{
+    padding: 2rem;
+    font-size: 3rem;
+}
