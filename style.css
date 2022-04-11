@@ -27,3 +27,16 @@ h2{
 .seccionA{
     padding: 4rem;
 }
+                                                    /* FOOTER   */
+footer{
+    border: 1rem double black;
+}
+footer p{
+padding-top: 1rem;
+font-weight: bold;
+font-family: monospace;
+}
+.iconsF{
+    padding-top: 4rem;
+}
+
