@@ -19,7 +19,12 @@ header{
 h1{
     font-family: fontudos;
     font-size: 4rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+}
+
+h1:hover{
+    transform: scale(120%);
+    transition: all 2s;
 }
 
 @media screen and (max-width:1200px){
@@ -71,4 +76,14 @@ font-family: monospace;
     padding: 5rem;
     border: 1rem double black;
     border-radius: 5%;
+}
+
+.bio:hover{
+    background-color: rgb(196, 196, 196);
+    transition: all 2s;
+}
+
+.card:hover{
+    transform: scale(140%);
+    transition: all 2s;
 }
