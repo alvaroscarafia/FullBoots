@@ -1,3 +1,15 @@
+                                                    /*FUENTES AGREGADAS  */
+@font-face {
+    font-family: fontuno;
+    src: url(/Multimedia/fonts/LEMONMILK-RegularItalic.otf);
+}
+@font-face{
+    font-family: fontdos;
+    src: url(/Multimedia/fonts/LEMONMILK-BoldItalic.otf);
+}
+
+
+
 
                                                     /* HEADER */
 
@@ -5,8 +17,19 @@ header{
     padding: 4rem;
 }
 h1{
-    font-size: 3rem;
+    font-family: fontudos;
+    font-size: 4rem;
     margin-top: 2rem;
+}
+
+@media screen and (max-width:1200px){
+    h1{
+        display: none;
+    }
+    header img{
+        display: flex;
+        justify-content: center;
+    }
 }
 
                                                     /*  NAVBAR */
@@ -42,6 +65,10 @@ font-family: monospace;
 
                                                     /* CATALOGO */
 
-.card-body{
-    border-radius: 10%;
+.bio{
+    margin-top: 1rem;
+    font-family: fontuno;
+    padding: 5rem;
+    border: 1rem double black;
+    border-radius: 5%;
 }
