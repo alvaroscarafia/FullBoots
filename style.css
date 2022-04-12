@@ -40,3 +40,8 @@ font-family: monospace;
     padding-top: 4rem;
 }
 
+                                                    /* CATALOGO */
+
+.card-body{
+    border-radius: 10%;
+}
