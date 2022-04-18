@@ -20,6 +20,8 @@ header{
 
 
 
+
+
                                                     /*  NAVBAR */
 nav{
     padding:15rem;
@@ -35,11 +37,19 @@ h2{
     font-family: monospace;
     text-decoration: underline;
 }
+
+h2:hover{
+    transform: scale(120%);
+    transition: all 2s;
+}
+
 .seccionA{
     padding: 4rem;
 }
                                                     /* FOOTER   */
 footer{
+    background-image: url(/Multimedia/img/fondo1.png);
+    background-position: bottom;
     border: 1rem double black;
     margin-bottom: 2rem;
 }
@@ -52,7 +62,26 @@ font-family: monospace;
     padding-top: 4rem;
 }
 
-                                                    /* CATALOGO */
+.anim:hover{
+    transform: scale(130%);
+    transition: all 1.5s;
+}
+
+
+
+                                                    /* PRODUCTOS */
+
+.card:hover{
+    transform: scale(120%);
+    transition: all 2s;
+
+}
+
+
+
+                                                    /* SOBRE NOSOTROS */
+
+
 
 .bio{
     margin-top: 1rem;
@@ -60,14 +89,32 @@ font-family: monospace;
     padding: 5rem;
     border: 1rem double black;
     border-radius: 5%;
+    font-size: 20px;
 }
 
 .bio:hover{
-    background-color: rgb(196, 196, 196);
+    background-color: rgb(221, 219, 219);
     transition: all 2s;
 }
 
-.card:hover{
-    transform: scale(140%);
-    transition: all 2s;
+
+                                                    /* COMO TRABAJAMOS */
+
+.howww{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:1200px){
+    .howww{
+        padding: 1rem;
+        font-size:15px;
+        text-align: center;
+    }
+    .bio{
+        padding: 1rem;
+        font-size: 13px;
+
+    }
+    
 }
