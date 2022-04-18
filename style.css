@@ -14,28 +14,11 @@
                                                     /* HEADER */
 
 header{
-    padding: 4rem;
-}
-h1{
-    font-family: fontudos;
-    font-size: 4rem;
-    margin-top: 1rem;
+    padding: 3rem;
 }
 
-h1:hover{
-    transform: scale(120%);
-    transition: all 2s;
-}
 
-@media screen and (max-width:1200px){
-    h1{
-        display: none;
-    }
-    header img{
-        display: flex;
-        justify-content: center;
-    }
-}
+
 
                                                     /*  NAVBAR */
 nav{
@@ -58,6 +41,7 @@ h2{
                                                     /* FOOTER   */
 footer{
     border: 1rem double black;
+    margin-bottom: 2rem;
 }
 footer p{
 padding-top: 1rem;
